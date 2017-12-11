@@ -8,7 +8,7 @@ using std::endl;
 using std::vector;
 using std::string;
 
-void Print(const vector<int>& _vec, string _str)
+void Print(const vector<int>& _vec, const string& _str)
 {
 	for (int i = 0; i < (_vec.size() - 1); ++i)
 		cout << _vec[i] << _str;
@@ -16,7 +16,7 @@ void Print(const vector<int>& _vec, string _str)
 	cout << endl;
 }
 
-void Print(const vector<int>& _vec, string _name, string _str)
+void Print(const vector<int>& _vec, const string& _name, const string& _str)
 {
 	cout << _name << "\n";
 	for (int i = 0; i < (_vec.size()); ++i) {
@@ -27,10 +27,10 @@ void Print(const vector<int>& _vec, string _name, string _str)
 	cout << endl;
 }
 
-void PrintUsingRange(const vector<int>& _vec, string _str)
+void PrintUsingRange(const vector<int>& _vec, const string& _str)
 {
 	cout << _str << endl;
-	for (int x : _vec)
+	for (int x : _vec) // Для перебора всех элементов контейнера
 		cout << x << " ";
 	cout << endl;
 
