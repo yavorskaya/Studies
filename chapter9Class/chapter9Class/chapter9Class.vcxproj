@@ -139,9 +139,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="Book.h" />
     <ClInclude Include="Chrono.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Book.cpp" />
     <ClCompile Include="Chrono.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>

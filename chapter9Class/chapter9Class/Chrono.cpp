@@ -1,4 +1,5 @@
 #include "Chrono.h"
+
 namespace Chrono { // Либо писать Chrono::Date::Date ()
 
 	Date::Date(int yy, Month mm, int dd) : y{ yy }, m{ mm }, d{ dd }
